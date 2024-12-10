@@ -39,3 +39,44 @@ This repository is meant to contain the learning regarding Computer Networks.
 
 - [IP Addressing](lessons/ip/readme.md)
 - [Routing and Switching](lessons/routing_switching/readme.md)
+
+
+<!-- - Wireless Networking
+   - Wi-Fi Standards (802.11a/b/g/n/ac/ax)
+   - Bluetooth
+   - Cellular Networks (3G, 4G, 5G)
+   - Zigbee
+   - RFID
+   - Satellite Communication
+
+### 8. **Security**
+   - Encryption (Symmetric, Asymmetric)
+   - Firewalls
+   - VPN (Virtual Private Network)
+   - Intrusion Detection Systems (IDS)
+   - Intrusion Prevention Systems (IPS)
+   - Secure Sockets Layer (SSL)/Transport Layer Security (TLS)
+   - WPA/WPA2/WPA3
+
+### 9. **Performance Metrics**
+   - QoS (Quality of Service)
+   - Jitter
+   - Packet Loss
+   - Error Detection and Correction
+
+### 10. **Advanced Networking Concepts**
+   - MPLS (Multi-Protocol Label Switching)
+   - SDN (Software-Defined Networking)
+   - NFV (Network Functions Virtualization)
+   - IoT (Internet of Things)
+   - Cloud Networking
+   - Edge Computing
+   - Content Delivery Networks (CDN)
+
+### 11. **Emerging Technologies**
+   - 5G and Beyond
+   - Network Automation
+   - Quantum Networking
+   - Green Networking
+   - Blockchain in Networking -->
+
