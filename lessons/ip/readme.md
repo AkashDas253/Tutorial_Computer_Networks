@@ -1,3 +1,66 @@
+## IP Addressing – Cheatsheet  
+
+### **Key Concepts to Remember**  
+- **IP addresses** are unique identifiers assigned to devices on a network.  
+- **IPv4** uses 32-bit addresses, while **IPv6** uses 128-bit addresses.  
+- IP addresses are classified into **public** and **private** addresses.  
+- **Subnetting** divides networks into smaller subnets.  
+
+### **IP Versions**  
+
+| **Version** | **Length** | **Format** | **Example** |
+|-------------|------------|------------|-------------|
+| **IPv4** | 32-bit | Dotted-decimal (e.g., 192.168.1.1) | 192.168.0.1 |
+| **IPv6** | 128-bit | Hexadecimal (e.g., 2001:db8::1) | 2001:db8::1 |
+
+### **Address Classes (IPv4)**  
+
+| **Class** | **Address Range** | **Subnet Mask** | **Usage** |
+|-----------|-------------------|-----------------|-----------|
+| **Class A** | 0.0.0.0 – 127.255.255.255 | 255.0.0.0 | Large networks |
+| **Class B** | 128.0.0.0 – 191.255.255.255 | 255.255.0.0 | Medium networks |
+| **Class C** | 192.0.0.0 – 223.255.255.255 | 255.255.255.0 | Small networks |
+| **Class D** | 224.0.0.0 – 239.255.255.255 | N/A | Multicast |
+| **Class E** | 240.0.0.0 – 255.255.255.255 | N/A | Reserved |
+
+### **Private Address Ranges (IPv4)**  
+
+| **Range** | **Class** |
+|-----------|-----------|
+| 10.0.0.0 – 10.255.255.255 | Class A |
+| 172.16.0.0 – 172.31.255.255 | Class B |
+| 192.168.0.0 – 192.168.255.255 | Class C |
+
+### **CIDR Notation**  
+- **CIDR (Classless Inter-Domain Routing)** eliminates class-based addressing.  
+- **Subnet Mask Example:** `/24` for a mask of `255.255.255.0`.
+
+### **Subnetting**  
+- Divides an IP address into **network** and **host** portions.  
+- **Subnet Mask**: Specifies which part of the address is the network and which part is the host.  
+- **Example**: `192.168.1.0/24` – Network: `192.168.1.0`, Subnet Mask: `255.255.255.0`.
+
+### **IPv6 Features**  
+- **Address Space:** Vastly larger than IPv4.  
+- **Auto-Configuration:** Devices can configure their own IP addresses automatically.  
+- **No NAT:** IPv6 eliminates the need for Network Address Translation (NAT).
+
+### **Special Addresses**  
+
+| **Address** | **Usage** |
+|-------------|-----------|
+| **Loopback (127.0.0.1)** | Used for self-testing. |
+| **Broadcast** | Sends data to all devices on the network (IPv4). |
+| **Anycast** | Delivered to the nearest device (IPv6). |
+| **Multicast** | Sent to multiple specific devices. |
+
+### **Important Terms**  
+- **Public IP Address:** Routable on the internet.  
+- **Private IP Address:** Used within local networks, not routable on the internet.  
+- **NAT (Network Address Translation):** Allows devices on a private network to communicate with the internet using a single public IP.
+
+---
+
 ## **IP Addressing**
 
 ### **1. IPv4 and IPv6**

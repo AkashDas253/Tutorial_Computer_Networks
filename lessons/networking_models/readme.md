@@ -1,3 +1,55 @@
+## Networking Model – Cheatsheet  
+
+### **Key Concepts to Remember**  
+- A **networking model** defines how different layers of a network communicate and interact with each other.  
+- The **OSI** and **TCP/IP** models are the two most widely used networking models.  
+
+### **OSI Model (Open Systems Interconnection Model)**  
+A conceptual framework used to understand network interactions in seven layers.  
+
+| **Layer** | **Description** | **Protocols/Technologies** |
+|-----------|-----------------|----------------------------|
+| **7. Application** | End-user application layer, providing network services to applications (e.g., HTTP, FTP, DNS) | HTTP, FTP, SMTP, POP3, DNS |
+| **6. Presentation** | Data formatting, encryption, compression, and translation. | SSL/TLS, JPEG, ASCII |
+| **5. Session** | Manages sessions between applications. Controls dialogue between two devices (e.g., start, pause, stop). | NetBIOS, RPC |
+| **4. Transport** | End-to-end communication and flow control. Ensures reliable data transfer. | TCP, UDP, SCTP |
+| **3. Network** | Routing, logical addressing, and packet forwarding. Responsible for directing data from source to destination. | IP, ICMP, ARP, OSPF, BGP |
+| **2. Data Link** | Provides error detection and correction, and manages MAC addressing. | Ethernet, PPP, HDLC, Wi-Fi |
+| **1. Physical** | Transmits raw bitstream over physical medium (e.g., cables, radio waves). | Ethernet cables, optical fibers, Wi-Fi |
+
+### **TCP/IP Model (Internet Protocol Suite)**  
+A more simplified and practical networking model with four layers, widely used for internet communication.  
+
+| **Layer** | **Description** | **Protocols/Technologies** |
+|-----------|-----------------|----------------------------|
+| **4. Application** | Supports application protocols and communication between software applications. | HTTP, FTP, DNS, SMTP |
+| **3. Transport** | Provides communication between processes (end-to-end communication). Ensures reliable data transfer. | TCP, UDP |
+| **2. Internet** | Defines logical addressing and routing (equivalent to OSI Network layer). | IP, ICMP, ARP |
+| **1. Link** | Deals with data transmission over physical links (combines OSI's Data Link and Physical layers). | Ethernet, Wi-Fi, PPP |
+
+### **Differences Between OSI and TCP/IP Models**  
+
+| **Aspect** | **OSI Model** | **TCP/IP Model** |
+|------------|---------------|------------------|
+| **Layers** | 7 layers (Application, Presentation, Session, Transport, Network, Data Link, Physical) | 4 layers (Application, Transport, Internet, Link) |
+| **Focus** | Conceptual, standardization model | Practical, real-world implementation |
+| **Usage** | Used for teaching, understanding protocols | Used in internet communication, based on the IP suite |
+
+### **Key Protocols to Remember**  
+- **HTTP/HTTPS**: Web communication (Application Layer).  
+- **FTP**: File transfer (Application Layer).  
+- **TCP**: Reliable, connection-oriented communication (Transport Layer).  
+- **UDP**: Unreliable, connectionless communication (Transport Layer).  
+- **IP**: Routing and logical addressing (Network Layer).  
+- **MAC Addressing**: Unique address for devices on the local network (Data Link Layer).  
+
+### **Important Concepts**  
+- **Encapsulation**: Data from the higher layers is encapsulated into packets or frames as it moves down the layers.  
+- **De-encapsulation**: Data is unpacked as it moves up the layers from the physical medium to the application.  
+- **Addressing**: Logical (IP) and physical (MAC) addressing used in the respective layers.  
+- **Routing vs Switching**: Routing occurs at the Network Layer, and switching at the Data Link Layer.  
+
+---
 
 ## **Properties of Network Models**
 

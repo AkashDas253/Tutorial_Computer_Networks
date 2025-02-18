@@ -1,3 +1,71 @@
+# Concepts
+
+- Network Fundamentals  
+  - OSI Model  
+  - TCP/IP Model  
+  - Network Topologies  
+  - Network Devices  
+
+- Network Protocols  
+  - TCP vs UDP  
+  - IP (IPv4, IPv6)  
+  - ICMP  
+  - ARP  
+  - DHCP  
+
+- Application Layer Protocols  
+  - HTTP/HTTPS  
+  - FTP/SFTP  
+  - SMTP/IMAP/POP3  
+  - DNS  
+
+- Transport Layer  
+  - Port Numbers  
+  - Connection Establishment (3-Way Handshake)  
+  - Flow Control  
+  - Congestion Control  
+
+- Network Layer  
+  - IP Addressing  
+  - Subnetting  
+  - Routing Protocols (RIP, OSPF, BGP)  
+  - NAT  
+
+- Data Link Layer  
+  - MAC Addressing  
+  - Ethernet  
+  - VLANs  
+  - Spanning Tree Protocol (STP)  
+
+- Physical Layer  
+  - Cables & Connectors  
+  - Wireless Communication  
+  - Signal Transmission  
+
+- Network Security  
+  - Firewalls  
+  - VPNs  
+  - IDS/IPS  
+  - SSL/TLS  
+
+- Wireless Networks  
+  - Wi-Fi Standards (802.11a/b/g/n/ac/ax)  
+  - Access Points  
+  - Security (WPA, WPA2, WPA3)  
+
+- Cloud & Virtual Networks  
+  - SDN (Software-Defined Networking)  
+  - Network Virtualization  
+  - Load Balancing  
+
+- Performance & Monitoring  
+  - QoS (Quality of Service)  
+  - Network Sniffing  
+  - Latency, Jitter, Packet Loss  
+
+
+---
+
 # **Computer Networks Concepts:**
 
 ### 1. **Network Fundamentals**
@@ -148,4 +216,7 @@
    - Quantum Networking
    - Green Networking
    - Blockchain in Networking
+
+
+---
 

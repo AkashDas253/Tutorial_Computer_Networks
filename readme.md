@@ -14,20 +14,20 @@ This repository is meant to contain the learning regarding Computer Networks.
 
 - Network Layering and Protocols
 
-    - Link Layer
+    - [Link Layer](lessons/link_layer/readme.md)
         - [ARP (Address Resolution Protocol)](lessons/arp/readme.md)
 
-    - Internet Layer
+    - [Internet Layer](lessons/internet_layer/readme.md)
         - [ICMP (Internet Control Message Protocol)](lessons/icmp/readme.md)
         - [BGP (Border Gateway Protocol)](lessons/bgp/readme.md)
         - [RIP (Routing Information Protocol)](lessons/rip/readme.md)
         - [OSPF (Open Shortest Path First)](lessons/ospf/readme.md)
 
-    - Transport Layer
+    - [Transport Layer](lessons/transport_layer/readme.md)
         - [TCP (Transmission Control Protocol)](lessons/tcp/readme.md)
         - [UDP (User Datagram Protocol)](lessons/udp/readme.md)
 
-    - Application Layer
+    - [Application Layer](lessons/application_layer/readme.md)
         - [DHCP (Dynamic Host Configuration Protocol)](lessons/dhcp/readme.md)
         - [DNS (Domain Name System)](lessons/dns/readme.md)
         - [HTTP/HTTPS (HyperText Transfer Protocol / HyperText Transfer Protocol Secure)](lessons/http_https/readme.md)

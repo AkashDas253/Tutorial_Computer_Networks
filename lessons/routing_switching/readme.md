@@ -1,3 +1,76 @@
+## Routing and Switching – Cheatsheet  
+
+### **Key Concepts to Remember**  
+- **Routing**: Directs packets between networks, typically by routers.  
+- **Switching**: Directs data within a local network, typically by switches.  
+- **Routing** operates at the **Network Layer** (Layer 3), while **Switching** works at the **Data Link Layer** (Layer 2).  
+
+### **Routing Concepts**  
+- **Routing Table:** Stores information about network destinations and the best path to reach them.  
+- **Default Gateway:** A router used to forward packets when no specific route is found in the routing table.  
+
+### **Routing Protocols**  
+
+| **Protocol** | **Type** | **Purpose** | **Examples** |
+|--------------|----------|-------------|--------------|
+| **Static Routing** | Manual | Fixed routing paths, requires manual updates | Administrator-defined routes. |
+| **Dynamic Routing** | Automated | Routes are learned and updated automatically | RIP, OSPF, BGP |
+
+#### **Interior Gateway Protocols (IGPs)**
+
+| **Protocol** | **Purpose** | **Routing Algorithm** |
+|--------------|-------------|-----------------------|
+| **RIP (Routing Information Protocol)** | Distance-vector protocol, uses hop count | Bellman-Ford |
+| **OSPF (Open Shortest Path First)** | Link-state protocol, uses shortest path first (SPF) | Dijkstra’s Algorithm |
+| **EIGRP (Enhanced Interior Gateway Routing Protocol)** | Hybrid protocol, combines aspects of distance-vector and link-state | Diffusing Update Algorithm (DUAL) |
+
+#### **Exterior Gateway Protocols (EGPs)**
+
+| **Protocol** | **Purpose** | **Routing Algorithm** |
+|--------------|-------------|-----------------------|
+| **BGP (Border Gateway Protocol)** | Used between ISPs, distance-vector with path vector | Path Vector |
+
+### **Routing Types**  
+- **Unicast:** One-to-one communication.  
+- **Multicast:** One-to-many communication.  
+- **Broadcast:** One-to-all communication (IPv4).  
+
+### **Switching Concepts**  
+- **MAC Address Table:** Switches maintain this table to forward frames based on MAC addresses.  
+- **Forwarding Decision:** Switches forward frames based on **MAC addresses** and **port mappings**.
+
+### **Switching Methods**  
+
+| **Method** | **Description** |
+|------------|-----------------|
+| **Store-and-Forward** | The switch receives the complete frame, checks for errors, and then forwards it. |
+| **Cut-through** | The switch starts forwarding the frame as soon as it reads the destination MAC address. |
+| **Fragment-free** | A balance between store-and-forward and cut-through, checks the first 64 bytes for errors. |
+
+### **Types of Switches**  
+
+| **Switch Type** | **Description** |
+|-----------------|-----------------|
+| **Unmanaged Switch** | Simple plug-and-play, no configuration needed. |
+| **Managed Switch** | Can be configured for advanced features like VLANs, QoS, and monitoring. |
+
+### **VLAN (Virtual Local Area Network)**  
+- **VLAN**: A logical segmentation of a physical network into distinct broadcast domains.  
+- **VLAN Tagging**: Identifies frames belonging to a specific VLAN.  
+- **VTP (VLAN Trunking Protocol)**: Used to propagate VLAN information across switches.  
+
+### **Important Routing Terms**  
+- **Hop Count**: The number of routers a packet must pass through.  
+- **Next Hop**: The next router or device in the packet’s path.  
+- **Route Aggregation**: Combining multiple network addresses into a single route to reduce the size of the routing table.  
+
+### **Important Switching Terms**  
+- **Port-based VLAN**: Assigns VLANs based on the switch port where the device is connected.  
+- **Trunking**: Transmitting multiple VLANs across a single physical link.  
+- **Spanning Tree Protocol (STP)**: Prevents loops in a network by blocking certain paths temporarily.
+
+---
+
 ## **Routing and Switching Overview**
 
 Routing and Switching are essential aspects of network infrastructure, enabling data to be directed and transmitted efficiently within and between networks. Routing refers to the process of determining the best path for data to travel across networks, while switching deals with forwarding data within a local network or subnet. Both are vital for ensuring effective communication in complex network environments.
